@@ -1,0 +1,12 @@
+# kill splash screen
+startup_message off
+
+# show original screen when exit from emacs/vi
+altscreen on
+
+# replace C-a with C-j
+escape ^Jj
+
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{= kG}%-w%{.cW}%n %t%{-}%+w %=%{= kG}% %H %{..Y} %Y/%m/%d %c:%s "
